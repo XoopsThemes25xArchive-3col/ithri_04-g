@@ -1,0 +1,242 @@
+/* --------- Stylesheets  #B9D3EE   incorporation --------- */
+@import url("content.css");
+@import url("forms.css");
+@import url("templates.css");
+@import url("blocks.css");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* --------- Layout --------- */
+html {
+	
+	font-family:  Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	line-height: normal;
+	margin: 0;
+	padding: 0;
+	background:  url("../img/bg-body.gif") fixed;
+		
+		
+}
+body {
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	unicode-bidi: embed;
+	width: 860px;
+	margin: 0 auto;
+	background:  url("../img/content.png") repeat-y top;
+    
+	
+}
+
+
+
+#xo-canvas {
+	
+	width: 860px;
+	margin: 0 auto;
+}
+#xo-canvas-content {
+   
+}
+
+	
+}
+#xo-page {
+	padding-top: 1px;   background: transparent;
+	
+	
+}
+/* --------- Header --------- */
+#xo-header {
+	
+	height: 130px;
+	background: url("../img/header.jpg") no-repeat;
+}
+
+
+/* --- Logo --- */
+#xo-header img.logo {
+	float:	left; 
+	padding: 9px 33px 0 0;
+	padding-left:40px;
+	padding-top:25px;
+} 
+
+
+
+
+/* ---------------------- Greenslate nav ---------------------- */
+.green #slatenav{position:relative;display:block;height:30px;font-size:11px;font-weight:bold;background:transparent url("../img/greenslate_background.gif") repeat-x top left;font-family:Arial,Verdana,Helvitica,sans-serif;text-transform:uppercase;}
+.green #slatenav ul{margin:0px;padding:0;list-style-type:none;width:auto;}
+.green #slatenav ul li{display:block;float:left;margin:0 1px 0 0;}
+.green #slatenav ul li a{display:block;float:left;color:#2F4F4F;text-decoration:none;padding:8px 22px 0 22px;height:30px;}
+.green #slatenav ul li a:hover,.green #slatenav ul li a.current{color:#fff;background:transparent url("../img/greenslate_backgroundOVER.gif") no-repeat top center;}
+
+
+
+/*--- Top Blocks ---*/
+#xo-top-shadow {
+	background:;
+	height: 2px;
+	
+}
+
+
+	
+/*============== Styles pour l'include userbar.html =================*/
+
+
+
+.xo-userbar form {
+	display:							inline;
+	padding:							0px;
+}
+.xo-userbar button {
+	margin: 							0px -3px;
+	border:							0px none;
+	padding:							0px;
+	background:						transparent none;
+}
+.xo-userbar button img {
+	width: 							20px;
+	height: 						20px;
+}
+.xo-userbar img {
+	width: 							20px;
+	height: 						20px;
+}
+.xo-userbar input {
+	color: 							black;
+	font-size: 						1.2em;
+	background-color: 			inherit;
+}
+
+.xo-userbar a {
+	color: 							#FF4500;
+	
+	text-decoration: 				none;
+	background-color: 			inherit;
+	
+	font-weight:					bold;
+}
+.xo-uname {
+	color: 							#87af7b;
+	font-size:						1.6em;
+	font-weight:					bold;
+	background: 					inherit;
+}
+
+
+.xo-userbar{
+	height: 32px;
+	text-align: left;
+	float: right;
+	padding: 15px 0 0 20px;
+	padding-right:20px;
+	padding-top:50px;
+}
+
+
+
+/* --------- Content module page --------- */
+#xo-content {
+  padding : 8px;
+  text-align : justify;
+    
+}
+
+/* --------- Footer --------- */
+#xo-footer {  
+	
+	background-color: #EEF3E2;
+	/*background: url("../img/footer.jpg") no-repeat center bottom;*/
+	width: 860px;
+	height:60px;
+	
+	
+}
+
+
+.xo-foottext{
+	font-size: 1.1em;
+	color: #2F4F4F;
+	padding: 0px 30px;
+	vertical-align: middle;
+	text-align: center;	
+	padding-top:10px;
+	
+}
+.xo-foottext a{
+	color:#2F4F4F;
+	text-decoration: none;
+	
+}
+.xo-foottext a:hover{
+	color: #2F4F4F;
+	text-decoration: underline;
+}
+
+
+
+/* --------- Block main menu --------- */
+#mainmenu {
+	font-size : 1.1em;
+	
+	padding-bottom:20px;
+	
+}
+#mainmenu a {
+  display: block;
+  margin: 0;
+  padding: 4px;
+  font-size: .8em; 
+  font-weight:					bold;
+  color:#3D3D3D;
+  text-align: center;	
+}
+#mainmenu a:hover {color:#BCEE68;}
+#mainmenu a.menuTop {
+padding-left: 15px;
+
+
+}
+#mainmenu a.menuMain {
+  padding-left: 15px;
+  font-size: .8em; 
+  font-weight:					bold;
+
+
+}
+#mainmenu a.menuSub {
+  padding-left: 20px;
+  color:#BCEE68 ;
+  font-size: .7em;
+}
+#mainmenu a.menuSub:hover {}
+
+/* --------- Block user menu --------- */
+#usermenu {
+font-size: .9em; 
+padding-left: 15px;
+
+padding-bottom:20px;
+}
+#usermenu a {
+  display: block;
+  margin: 0; 
+  padding: 4px;
+  text-align: center;
+}
+#usermenu a:hover {color:#009ACD}
+#usermenu a.menuTop {}
+
+
+.rss { float: right; padding: 5px 5px 0 0;}
+.rss a:hover {	text-decoration: none;}
+
+
+
+

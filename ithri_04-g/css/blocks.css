@@ -1,0 +1,111 @@
+/* --------- Left columns --------- */
+#xo-canvas-leftcolumn { 
+	padding: 10px;
+	width : 170px;
+	padding-top:1px;
+	padding-left: 1px;
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+    border-right: url("../img/righ.png") repeat-y; 
+}
+
+#xo-canvas-leftcolumn h3.xo-blocktitle {
+    color: #2F4F4F; 
+    background:  url("../img/left.jpg") repeat-x; 
+    font-size: 13px;
+    margin-left:  6px ;
+	padding-top: 1px;  
+	text-align: center;
+	font-weight: bold;  
+	height:20px
+	
+	 
+    
+}
+
+#xo-canvas-leftcolumn .xo-blockcontent { 
+	
+	padding-left: 8px;
+	padding-bottom: 15px;
+	padding-left:2px;
+	
+}
+
+
+
+/* --------- Right columns --------- */
+#xo-canvas-rightcolumn {
+	padding: 10px;
+	width : 180px;
+	padding-top:1px;
+	padding-left: 1px;
+	font-family: Segoe UI,Tahoma,Arial,Helvetica,sans-serif;
+	
+}
+#xo-canvas-rightcolumn h3.xo-blocktitle {
+    background:  url("../img/right.jpg") ;
+    padding-top:1px;
+	color: #2F4F4F; 
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	margin-left:  4px ;
+	height:20px
+	
+	
+}
+#xo-canvas-rightcolumn .xo-blockcontent { 
+	color:#00008B;
+	padding-left: 8px;
+	padding-bottom: 15px;
+	padding-left:2px;
+	
+}
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {
+  margin: 5px;
+ 
+
+ 
+ 
+}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-left: 20px;
+  color :#2F4F4F;
+  font-weight: bold;
+  
+  
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  
+  margin-bottom: 10px;
+  line-height: 1.3em;
+  text-align: justify;
+  
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%; }
+   
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+  margin: 5px;
+  padding-left: 10px;
+  color: #2F4F4F;
+  font-weight: bold;
+  padding-left: 20px;
+  
+   
+  
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  margin-bottom: 2px;
+  line-height: 1.3em;
+  text-align: justify;  
+}
+
+#xo-topleftblocks{border-right: 1px solid  #2F4F4F;  }
+ #xo-bottomrightblocks {border-left: 1px solid  #2F4F4F;}
+
+
